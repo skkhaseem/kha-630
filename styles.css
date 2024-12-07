@@ -3,10 +3,32 @@
     /* border: 2px solid black; */
     text-align: center;
 }
+header{
+    background-color: azure;
+    width:100%;
+    padding: 12px;
+    position: sticky;
+    top: 0px;
+    vertical-align: middle;
+    scroll-behavior: smooth;
+
+
+}
+nav{
+
+    display: inline-block;
+    margin-right: 325px;
+    vertical-align: middle;
+    font-size: 80px;
+}
 .item1,
 .item2,
 .item3,
-.item4 {
+.item4,
+.item5,
+.item6,
+.item7,
+.item8 {
    
    /* border: 2px solid black; */
    width: 280px;
@@ -18,4 +40,15 @@
 }
 img{
     width: 100%;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
 }
